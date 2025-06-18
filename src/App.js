@@ -105,6 +105,7 @@ const data = [
       { texte: "Pression maintient trop forte", pourcentage: 1 },
       { texte: "Temps maintient trop long", pourcentage: 3 },
       { texte: "Communication en maintient à revoir", pourcentage: 4 },
+    ]
   },
   {
     defaut: "Bulless de vide",
