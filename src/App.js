@@ -142,6 +142,7 @@ const data = [
       { texte: "Pression maintient trop faorte", pourcentage: 4 },
       { texte: "Temps maintient trop long", pourcentage: 5 },
       { texte: "Communication en maintient à revoir", pourcentage: 7 },
+    ]
   },
   {
     defaut: "Gauchissement",
@@ -181,6 +182,7 @@ const data = [
     causes: [
       { texte: "Limite pression injection faible", pourcentage: 3 },
       { texte: "Vitesse injection trop lente", pourcentage: 2 },
+    ]
   },
   {
     defaut: "Matière collée",
@@ -216,7 +218,7 @@ const data = [
     ]
   },
 
-  };
+  ];
 
 function App() {
   const [defautSelectionne, setDefautSelectionne] = useState("");
